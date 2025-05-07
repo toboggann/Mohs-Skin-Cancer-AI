@@ -1,0 +1,140 @@
+====================================
+- Model Accuracy (MS):
+Initial run 
+# of Correct Predictions = 221
+Sample Size = 294
+Accuracy = 75.17%
+
+Number of Notes without a Given MS = 3
+Accuracy = 75.95%
+
+Number of PE/A&P/A Notes without a valid GPT Given MS = 0
+Accuracy = 75.17%
+
+Number of Combined Notes without a Given MS = 3
+Accuracy = 75.95%
+
+Confusion Matrix:
+TP: 47
+TN: 174
+FP: 55
+FN: 15
+
+Confusion Matrix Metrics:
+accuracy: 75.95
+precision: 46.08
+recall: 75.81
+F1: 57.32
+
+========V2========
+
+# of Correct Predictions = 229
+Sample Size = 294
+Accuracy = 77.89%
+
+Number of Notes without a Given MS = 3
+Accuracy = 78.69%
+
+Number of PE/A&P/A Notes without a valid GPT Given MS = 0
+Accuracy = 77.89%
+
+Number of Combined Notes without a Given MS = 3
+Accuracy = 78.69%
+
+Confusion Matrix:
+TP: 0
+TN: 229
+FP: 0
+FN: 62
+
+Confusion Matrix Metrics:
+accuracy: 78.69
+precision: 0.00
+recall: 0.00
+F1: 0.00
+
+I had a lot of false Positives so I made the prompt more strict and then It got significantly more strict but too strict...
+
+========V3========
+# of Correct Predictions = 230
+Sample Size = 294
+Accuracy = 78.23%
+
+Number of Notes without a Given MS = 3
+Accuracy = 79.04%
+
+Number of PE/A&P/A Notes without a valid GPT Given MS = 0
+Accuracy = 78.23%
+
+Number of Combined Notes without a Given MS = 3
+Accuracy = 79.04%
+
+Confusion Matrix:
+TP: 1
+TN: 229
+FP: 0
+FN: 61
+
+Confusion Matrix Metrics:
+accuracy: 79.04
+precision: 100.00
+recall: 1.61
+F1: 3.17
+
+========V4========
+
+I switched to just the Addendum Column and it spiked a lot so I will continue to work on the prompt with just the addendum column
+
+# of Correct Predictions = 267
+Sample Size = 294
+Accuracy = 90.82%
+
+Number of Notes without a Given MS = 3
+Accuracy = 91.75%
+
+Number of PE/A&P/A Notes without a valid GPT Given MS = 0
+Accuracy = 90.82%
+
+Number of Combined Notes without a Given MS = 3
+Accuracy = 91.75%
+
+Confusion Matrix:
+TP: 49
+TN: 218
+FP: 11
+FN: 13
+
+Confusion Matrix Metrics:
+accuracy: 91.75
+precision: 81.67
+recall: 79.03
+F1: 80.33
+
+========V5========
+Many Tests Later
+
+
+# of Correct Predictions = 274
+Sample Size = 294
+Accuracy = 93.20%
+
+Number of Notes without a Given MS = 3
+Accuracy = 94.16%
+
+Number of PE/A&P/A Notes without a valid GPT Given MS = 0
+Accuracy = 93.20%
+
+Number of Combined Notes without a Given MS = 3
+Accuracy = 94.16%
+
+Confusion Matrix:
+TP: 50
+TN: 224
+FP: 5
+FN: 12
+
+Confusion Matrix Metrics:
+accuracy: 94.16
+precision: 90.91
+recall: 80.65
+F1: 85.47

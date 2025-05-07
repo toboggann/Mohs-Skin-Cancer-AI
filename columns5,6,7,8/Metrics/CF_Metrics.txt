@@ -1,0 +1,125 @@
+====================================
+- Model Accuracy (CF):
+
+========Initial run========
+# of Correct Predictions = 282
+Sample Size = 294
+Accuracy = 95.92%
+
+Number of Notes without a Given CF = 3
+Accuracy = 96.91%
+
+Number of PE/A&P/A Notes without a valid GPT Given CF = 0
+Accuracy = 95.92%
+
+Number of Combined Notes without a Given CF = 3
+Accuracy = 96.91%
+
+Confusion Matrix:
+TP: 11
+TN: 271
+FP: 4
+FN: 5
+
+Confusion Matrix Metrics:
+accuracy: 96.91
+precision: 73.33
+recall: 68.75
+F1: 70.97
+
+
+
+========V2========
+Since there are only 16 TP I need to increase the precision significantly as well as the recal and F1
+I continued to try and change the system_context and the question but it remained the same throughout.
+
+# of Correct Predictions = 283
+Sample Size = 294
+Accuracy = 96.26%
+
+Number of Notes without a Given CF = 3
+Accuracy = 97.25%
+
+Number of PE/A&P/A Notes without a valid GPT Given CF = 0
+Accuracy = 96.26%
+
+Number of Combined Notes without a Given CF = 3
+Accuracy = 97.25%
+
+Confusion Matrix:
+TP: 12
+TN: 271
+FP: 4
+FN: 4
+
+Confusion Matrix Metrics:
+accuracy: 97.25
+precision: 75.00
+recall: 75.00
+F1: 75.00
+
+
+========V3========
+I made the que a shorter. This whole time I have been making it have other information so I made it just a question instead and it improved.
+
+
+# of Correct Predictions = 284
+Sample Size = 294
+Accuracy = 96.60%
+
+Number of Notes without a Given CF = 3
+Accuracy = 97.59%
+
+Number of PE/A&P/A Notes without a valid GPT Given CF = 0
+Accuracy = 96.60%
+
+Number of Combined Notes without a Given CF = 3
+Accuracy = 97.59%
+
+Confusion Matrix:
+TP: 13
+TN: 271
+FP: 4
+FN: 3
+
+Confusion Matrix Metrics:
+accuracy: 97.59
+precision: 76.47
+recall: 81.25
+F1: 78.79
+
+========V4========
+
+# of Correct Predictions = 285
+Sample Size = 294
+Accuracy = 96.94%
+
+Number of Notes without a Given CF = 3
+Accuracy = 97.94%
+
+Number of PE/A&P/A Notes without a valid GPT Given CF = 0
+Accuracy = 96.94%
+
+Number of Combined Notes without a Given CF = 3
+Accuracy = 97.94%
+
+Confusion Matrix:
+TP: 13
+TN: 272
+FP: 3
+FN: 3
+
+Confusion Matrix Metrics:
+accuracy: 97.94
+precision: 81.25
+recall: 81.25
+F1: 81.25
+
+
+Issues:
+FP: 49,59,133,180
+I changed it so the prompt included Explicit rejection of empirical C&F before pathology confirmation, 
+Rejects “follow-up” or “loose planning” without firm decision, and accepts co-scheduled C&F only if clearly elected and mapped
+
+FN: 39,67
+I made the model accept tentative language when pathology is confirmed + lesion-level mapping is present

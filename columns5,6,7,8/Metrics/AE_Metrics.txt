@@ -1,0 +1,68 @@
+====================================
+- Model Accuracy (AE):
+
+========Initial run========
+# of Correct Predictions = 66
+Sample Size = 294
+Accuracy = 22.45%
+
+Number of Notes without a Given AE = 3
+Accuracy = 22.68%
+
+Number of PE/A&P/A Notes without a valid GPT Given AE = 0
+Accuracy = 22.45%
+
+Number of Combined Notes without a Given AE = 3
+Accuracy = 22.68%
+
+Confusion Matrix:
+TP: 21
+TN: 45
+FP: 224
+FN: 1
+
+Confusion Matrix Metrics:
+accuracy: 22.68
+precision: 8.57
+recall: 95.45
+F1: 15.73
+
+========V2========
+After making the prompts more strict I got this, since I am trying to decrease the amount of false positives.
+
+# of Correct Predictions = 189
+Sample Size = 294
+Accuracy = 64.29%
+
+Number of Notes without a Given AE = 3
+Accuracy = 64.95%
+
+Number of PE/A&P/A Notes without a valid GPT Given AE = 0
+Accuracy = 64.29%
+
+Number of Combined Notes without a Given AE = 3
+Accuracy = 64.95%
+
+Confusion Matrix:
+TP: 9
+TN: 180
+FP: 89
+FN: 13
+
+Confusion Matrix Metrics:
+accuracy: 64.95
+precision: 9.18
+recall: 40.91
+F1: 15.00
+
+========V3========
+I changed the que to just a question with no other information. I think it would be more realistic to just have it a question instead of a statement containining more information
+
+Many Many Tests later...
+
+
+
+
+
+
+

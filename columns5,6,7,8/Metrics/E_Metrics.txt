@@ -1,0 +1,172 @@
+====================================
+- Model Accuracy (E):
+
+Strong imbalance of Data, there are only 14 Y and the rest are N
+
+First test had a ~95% accuracy but becuase of the imbalance of data it missed 14 Y and there were 14 Y Precision was 0.00
+# of Correct Predictions = 278
+Sample Size = 294
+Accuracy = 94.56%
+
+Number of Notes without a Given E = 2
+Accuracy = 95.21%
+
+Number of PE/A&P/A Notes without a valid GPT Given E = 0
+Accuracy = 94.56%
+
+Number of Combined Notes without a Given E = 2
+Accuracy = 95.21%
+
+Confusion Matrix:
+TP: 0
+TN: 278
+FP: 0
+FN: 14
+
+Confusion Matrix Metrics:
+accuracy: 95.21
+precision: 0.00
+recall: 0.00
+F1: 0.00
+
+=========================
+Many tests later
+========V2========
+
+# of Correct Predictions = 286
+Sample Size = 294
+Accuracy = 97.28%
+
+Number of Notes without a Given E = 2
+Accuracy = 97.95%
+
+Number of PE/A&P/A Notes without a valid GPT Given E = 0
+Accuracy = 97.28%
+
+Number of Combined Notes without a Given E = 2
+Accuracy = 97.95%
+
+Confusion Matrix:
+TP: 9
+TN: 277
+FP: 1
+FN: 5
+
+Confusion Matrix Metrics:
+accuracy: 97.95
+precision: 90.00
+recall: 64.29
+F1: 75.00
+
+=========================
+Many tests later
+========V3========
+
+# of Correct Predictions = 282
+Sample Size = 294
+Accuracy = 95.92%
+
+Number of Notes without a Given ENT = 2
+Accuracy = 96.58%
+
+Number of PE/A&P/A Notes without a valid GPT Given ENT = 0
+Accuracy = 95.92%
+
+Number of Combined Notes without a Given ENT = 2
+Accuracy = 96.58%
+
+Confusion Matrix:
+TP: 5
+TN: 277
+FP: 1
+FN: 9
+
+Confusion Matrix Metrics:
+accuracy: 96.58
+precision: 83.33
+recall: 35.71
+F1: 50.00
+
+========V4========
+
+# of Correct Predictions = 278
+Sample Size = 294
+Accuracy = 94.56%
+
+Number of Notes without a Given ENT = 2
+Accuracy = 95.21%
+
+Number of PE/A&P/A Notes without a valid GPT Given ENT = 0
+Accuracy = 94.56%
+
+Number of Combined Notes without a Given ENT = 2
+Accuracy = 95.21%
+
+Confusion Matrix:
+TP: 0
+TN: 278
+FP: 0
+FN: 14
+
+Confusion Matrix Metrics:
+accuracy: 95.21
+precision: 0.00
+recall: 0.00
+F1: 0.00
+
+Not strict enough
+
+========V5========
+
+# of Correct Predictions = 284
+Sample Size = 294
+Accuracy = 96.60%
+
+Number of Notes without a Given ENT = 2
+Accuracy = 97.26%
+
+Number of PE/A&P/A Notes without a valid GPT Given ENT = 0
+Accuracy = 96.60%
+
+Number of Combined Notes without a Given ENT = 2
+Accuracy = 97.26%
+
+Confusion Matrix:
+TP: 6
+TN: 278
+FP: 0
+FN: 8
+
+Confusion Matrix Metrics:
+accuracy: 97.26
+precision: 100.00
+recall: 42.86
+F1: 60.00
+
+========V6========
+Many many tests later
+
+# of Correct Predictions = 284
+Sample Size = 294
+Accuracy = 96.60%
+
+Number of Notes without a Given ENT = 2
+Accuracy = 97.26%
+
+Number of PE/A&P/A Notes without a valid GPT Given ENT = 0
+Accuracy = 96.60%
+
+Number of Combined Notes without a Given ENT = 2
+Accuracy = 97.26%
+
+Confusion Matrix:
+TP: 10
+TN: 274
+FP: 4
+FN: 4
+
+Confusion Matrix Metrics:
+accuracy: 97.26
+precision: 71.43
+recall: 71.43
+F1: 71.43
