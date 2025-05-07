@@ -1,0 +1,125 @@
+- Model Accuracy (AT):
+
+~58.5% accuracy for Addendum only: Version 1
+58.84, 59.45, 58.84, 59.45
+56.80, 57.39, 56.80, 57.39
+58.16, 58.76, 58.16, 58.76 (113 false +, 7 false -)
+58.84, 59.45, 58.84, 59.45 (111 false +, 7 false -)
+57.48, 58.08, 57.48, 58.08 (113 false +, 9 false -)
+59.86, 60.48, 59.86, 60.48
+
+# Changed Payload from {"role": "system", "content": "Answer the question based only on the following context, which can include text and tables: "} to
+# {"role": "system", "content": system_context} which is detailed context outlining task -> format -> fallback behavior -> AT criteria
+# Swapped the prompt to have the question before the patient note, used .strip() starting in test 3 due to random spaces
+
+# Ways to improve accuracy: change prompt to include GPT's explanation and try and figure something out, modify prompt
+
+Confusion Matrix (A):                        Confusion Matrix Metrics (A):
+TP: 69,  70                                  accuracy:  60.48, 54.64
+TN: 107, 89                                  precision: 39.20, 35.90 -> When predicting Yes, bad
+FP: 107, 125                                 recall:    89.61, 90.91 -> Catches almost all of Ground Truth = Yes
+FN: 8,   7                                   F1:        54.55, 51.47 -> Overpredicts Yes, maybe can fix
+
+Confusion Matrix (PE):                       Confusion Matrix Metrics (PE):
+TP: 12,  11                                  accuracy:  68.38, 69.42
+TN: 187, 191                                 precision: 30.77, 32.35 -> When predicting Yes, bad
+FP: 27,  23                                  recall:    15.58, 14.29 -> Catches almost none of Ground Truth = Yes
+FN: 65,  66                                  F1:        20.69, 19.82 -> Just sucks
+
+Confusion Matrix (A&P):                      Confusion Matrix Metrics (A&P):
+TP: 36,  24                                  accuracy:  59.11, 67.01
+TN: 136, 171                                 precision: 31.58, 35.82 -> When predicting Yes, bad
+FP: 78,  43                                  recall:    46.75, 31.17 -> Catches some of Ground Truth = Yes
+FN: 41,  53                                  F1:        37.70, 33.33 -> Isn't great
+
+Matrix Metrics Comparisons (PE, A, A&P):
+accuracy:  68.38, 60.48, 59.11 - PE > A ~= A&P
+precision: 30.77, 39.20, 31.58 - A > A&P ~= P
+recall:    15.58, 89.61, 46.75 - A >> A&P >> PE
+F1:        20.69, 54.55, 37.70 - A > A&P > PE
+
+A column is best even though accuracy is 8% lower than PE
+PE column is by far the worst but has highest accuracy (High true -, rarely guesses Y so misses lots of true +)
+None have a good precision, many false +
+
+
+
+~65% accuracy for all columns: Version 2
+63.95, 64.60, 63.95, 64.60
+64.63, 65.2, 64.63, 65.2
+
+Confusion Matrix:                            Confusion Matrix Metrics:
+TP: 40, 37                                   accuracy: 64.60, 65.29
+TN: 148, 153                                 precision: 37.74, 37.76
+FP: 66, 61                                   recall: 51.95, 48.05
+FN: 37, 40                                   F1: 43.72, 42.29
+
+
+
+~66% accuracy for all columns prioritizing the response from A: Version 3
+63.95, 64.60, 63.95, 64.60
+67.69, 68.38, 67.69, 68.38
+
+Confusion Matrix:                            Confusion Matrix Metrics:
+TP: 32, 18                                   accuracy: 64.60, 68.38
+TN: 156, 181                                 precision: 35.56, 35.29
+FP: 58, 33                                   recall: 41.56, 23.38
+FN: 45, 59                                   F1: 38.32, 28.12
+
+# If GPT response to A is 'yes', then check if either PE or A&P both got 'yes', if so return 'yes', else return 'no'
+
+~76% accuracy for only A with a prompt change: Version 4
+Confusion Matrix Addendum: (Prompt Changed: Mentions aggressive tumor types are less common than nonaggressive ones)
+TP: 64
+TN: 158
+FP: 60
+FN: 9
+
+Confusion Matrix Metrics Addendum:
+accuracy: 76.29
+precision: 51.61
+recall: 87.67
+F1: 64.97
+
+Note: Aggressive tumor types are less common than nonaggressive ones. Avoid selecting 'Yes' unless the wording or clinical context clearly suggests an aggressive variant. (Change 1)
+
+Note: Aggressive tumor types are less common than nonaggressive ones. Avoid selecting 'Yes' unless the wording or clinical context clearly suggests an aggressive variant. Avoid classifying as aggressive when descriptions are vague or ambiguous. (Change 2)
+
+Note: Aggressive tumor types are less common than nonaggressive ones. Only select 'Yes' if the tumor type or clinical context strongly and specifically indicates an aggressive variant. If the description is vague, non-specific, or lacks strong language suggesting severity, respond with 'No'. (Change 3)
+Note: Aggressive tumor types are less common than nonaggressive ones.  
+
+Only respond 'Yes' if the tumor type name or clinical description **explicitly and clearly** supports an aggressive classification.  
+If the note uses vague, uncertain, or general terms — or if strong evidence of aggressiveness is missing — respond 'No'.  
+When in doubt, favor 'No'. (Change 4, Best one)
+
+Note: Aggressive tumor types are rare.  
+Only respond 'Yes' if the tumor type name or clinical description **directly names** an aggressive variant or **explicitly describes features that are unmistakably aggressive**.  
+If the language is vague, general, cautious, or does not clearly state aggressiveness, respond 'No'.  
+In all uncertain or borderline cases, default to 'No' without exception. (Change 5)
+
+4 > 5 > 3 > 2 > 1
+
+
+Major Changes (Version 4):
+
+
+First Version, no mention of aggressive tumors being uncommon:
+Confusion Matrix (A):                        Confusion Matrix Metrics (A):
+TP: 69,  70                                  accuracy:  60.48, 54.64
+TN: 107, 89                                  precision: 39.20, 35.90 -> When predicting Yes, bad
+FP: 107, 125                                 recall:    89.61, 90.91 -> Catches almost all of Ground Truth = Yes
+FN: 8,   7                                   F1:        54.55, 51.47 -> Overpredicts Yes, maybe can fix
+
+Prompt Change 1, mentions aggressive tumors are uncommon:
+Confusion Matrix Addendum:                   Confusion Matrix Metrics Addendum:
+TP: 68                                       accuracy:  79.73
+TN: 164                                      precision: 57.63
+FP: 50                                       recall:    88.31
+FN: 9                                        F1:        69.74
+
+Prompt Change 4, wording strict for selecting Yes but not overly strict:
+Confusion Matrix Addendum:                   Confusion Matrix Metrics Addendum:
+TP: 66                                       accuracy:  86.94
+TN: 187                                      precision: 70.97
+FP: 27                                       recall:    85.71
+FN: 11                                       F1:        77.65

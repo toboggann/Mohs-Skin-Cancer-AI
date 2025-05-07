@@ -1,0 +1,57 @@
+"location": """
+Your task is to determine if the following Mohs patient note describes any tumor type that is both **cancercous** and located on one of the following areas: **Nose, Eyelid, Nail, Lip, Genitalia, or Acral**.
+    
+ONLY respond with 'Yes' or 'No'.
+    
+If a tumor type is not explicitly named, use clinical context and wording in the note to make a best-guess classification.
+
+Only respond 'Yes' if the tumor type name or clinical description **explicitly and clearly** supports a cancerous classification on one of the listed areas.  
+If the note uses vague, uncertain, or general terms — or lacks strong evidence of cancerousness — respond 'No'.  
+When in doubt, favor 'No'.
+"""
+
+Confusion Matrix for location: (Too strict, selected all no)
+TP: 0
+TN: 206
+FP: 0
+FN: 85
+
+Confusion Matrix Metrics for location:
+accuracy: 70.79
+precision: 0.00
+recall: 0.00
+F1: 0.00
+
+
+
+"location": """
+Your task is to determine if the following Mohs patient note describes any tumor type that is both **cancercous** and located on one of the following areas: **Nose, Eyelid, Nail, Lip, Genitalia, or Acral**.
+    
+ONLY respond with 'Yes' or 'No'.
+    
+If a tumor type is not explicitly named, use clinical context and wording in the note to make a best-guess classification.
+"""
+
+Confusion Matrix for location: (Accidentally messed up a function and made it always return no)
+TP: 0
+TN: 206
+FP: 0
+FN: 85
+
+Confusion Matrix Metrics for location:
+accuracy: 70.79
+precision: 0.00
+recall: 0.00
+F1: 0.00
+
+Confusion Matrix for location: (Same prompt, calls all 3 columns and see which 2 agree)
+TP: 75
+TN: 181
+FP: 25
+FN: 10
+
+Confusion Matrix Metrics for location:
+accuracy: 87.97
+precision: 75.00
+recall: 88.24
+F1: 81.08

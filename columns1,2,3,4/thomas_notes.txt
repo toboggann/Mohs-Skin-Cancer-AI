@@ -1,0 +1,178 @@
+- Code TODO:
+Size: Flip the user prompt to be: 'question \n\n patient note' and check if .strip() issue exists (I forgot what that issue is)
+Size: Fix how accuracy is calculated in the combined_columns file, idk where the mistake was made, it could be anywhere in the file
+AE: Try to reduce FP, then if need FN, then balance
+General: Calculate grade for each note based on columns, add size afterwards (not happening, future project work)
+
+
+
+Order:
+1. Location (L)                         - 91.78% Acc, 86.21% F1 (Prioritize A)
+2. Aggressive Tumor Pathology Type (AT) - 86.94% Acc, 77.91% F1 (Only A)
+3. DFSP (D)                             - 100% Acc,   0%     F1 (Only A)
+4. Recurrent Tumor (R)                  - 96.91% Acc, 52.63% F1 (Prioritize A)
+
+Size: Accuracy = 98.18% (No F1 because FP and FN do not exist in simple numerical comparisons)
+
+(98.18   +   91.78 + 86.94 + 100 + 96.91   +   64.95 + 97.94 + 94.16 + 97.26) / 9 = ~92.01% Accuracy
+(?   +   86.21 + 77.91 + ?? + 52.63   +   15 + 81.25 + 85.47 + 71.43) / 8 = ~67.13% F1
+(86.21 + 77.91   +   15 + 85.47) / 4
+CF: 16Y 275N,   E: 14Y 278N   and   DFSP: 0Y 291N,   R: 10Y 281N
+
+"column_name(1).txt" is a file with data of all 3 PE/A&P/A called, can be used in vote_testing.ipynb to test best way to call GPT without calling it again
+
+
+- Model Accuracy (L):
+2nd number is the best to look at, it removes notes that have issues like blank Given Locations
+
+~80.61% accuracy for all notes split into 3 GPT calls, chosen by match or most "yes" or "no" from the 3 responses: Version 1
+80.61, 80.61, 80.61, 80.61 (no notes skipped, don't know if any should be skipped)
+
+
+
+~91.78% accuracy for calling only A, if answer is yes, call GPT on the other 2, if either say yes, return yes, else no, reduces false positives: Version 2
+Confusion Matrix Prioritize:
+TP: 75
+TN: 193
+FP: 14
+FN: 10
+
+Confusion Matrix Metrics Prioritize:
+accuracy: 91.78
+precision: 84.27
+recall: 88.24
+F1: 86.21
+
+
+
+
+
+- Model Accuracy (AT):
+
+~58.5% accuracy for Addendum only: Version 1
+58.84, 59.45, 58.84, 59.45
+56.80, 57.39, 56.80, 57.39
+58.16, 58.76, 58.16, 58.76 (113 false +, 7 false -)
+58.84, 59.45, 58.84, 59.45 (111 false +, 7 false -)
+57.48, 58.08, 57.48, 58.08 (113 false +, 9 false -)
+59.86, 60.48, 59.86, 60.48
+
+Confusion Matrix (A):                        Confusion Matrix Metrics (A):
+TP: 69,  70                                  accuracy:  60.48, 54.64
+TN: 107, 89                                  precision: 39.20, 35.90 -> When predicting Yes, bad
+FP: 107, 125                                 recall:    89.61, 90.91 -> Catches almost all of Ground Truth = Yes
+FN: 8,   7                                   F1:        54.55, 51.47 -> Overpredicts Yes, maybe can fix
+
+Confusion Matrix (PE):                       Confusion Matrix Metrics (PE):
+TP: 12,  11                                  accuracy:  68.38, 69.42
+TN: 187, 191                                 precision: 30.77, 32.35 -> When predicting Yes, bad
+FP: 27,  23                                  recall:    15.58, 14.29 -> Catches almost none of Ground Truth = Yes
+FN: 65,  66                                  F1:        20.69, 19.82 -> Just sucks
+
+Confusion Matrix (A&P):                      Confusion Matrix Metrics (A&P):
+TP: 36,  24                                  accuracy:  59.11, 67.01
+TN: 136, 171                                 precision: 31.58, 35.82 -> When predicting Yes, bad
+FP: 78,  43                                  recall:    46.75, 31.17 -> Catches some of Ground Truth = Yes
+FN: 41,  53                                  F1:        37.70, 33.33 -> Isn't great
+
+Matrix Metrics Comparisons (PE, A, A&P):
+accuracy:  68.38, 60.48, 59.11 - PE > A ~= A&P
+precision: 30.77, 39.20, 31.58 - A > A&P ~= P
+recall:    15.58, 89.61, 46.75 - A >> A&P >> PE
+F1:        20.69, 54.55, 37.70 - A > A&P > PE
+
+
+
+~65% accuracy for all columns: Version 2
+Confusion Matrix:                            Confusion Matrix Metrics:
+TP: 40,  37                                  accuracy:  64.60, 65.29
+TN: 148, 153                                 precision: 37.74, 37.76
+FP: 66,  61                                  recall:    51.95, 48.05
+FN: 37,  40                                  F1:        43.72, 42.29
+
+
+
+~68% accuracy for all columns prioritizing the response from A&P: Version 3a
+
+Confusion Matrix:                            Confusion Matrix Metrics:
+TP: 32,  18,  21                             accuracy:  64.60, 68.38, 71.48
+TN: 156, 181, 187                            precision: 35.56, 35.29, 43.75
+FP: 58,  33,  27                             recall:    41.56, 23.38, 27.27
+FN: 45,  59,  56                             F1:        38.32, 28.12, 33.60
+
+# If GPT response to A&P is 'yes', then check if either PE or A&P both got 'yes', if so return 'yes', else return 'no'
+# Accidentally prioritized A&P instead of A in the function oops)
+
+~68% accuracy for all columns prioritizing the response from A: Version 3b
+
+Confusion Matrix:                            Confusion Matrix Metrics:
+TP: 23,  27                                       accuracy:  68.38, 68.73
+TN: 176, 173                                      precision: 37.70, 39.71
+FP: 38,  41                                       recall:    29.87, 35.06
+FN: 54,  50                                       F1:        33.33, 37.24
+
+
+
+~87% accuracy for only Addendum with prompt changes: Version 4
+Prompt Change 4, wording strict for selecting Yes but not overly strict:
+Confusion Matrix Addendum:                   Confusion Matrix Metrics Addendum:
+TP: 66                                       accuracy:  86.94
+TN: 187                                      precision: 70.97
+FP: 27                                       recall:    85.71
+FN: 11                                       F1:        77.65
+
+# System context and small tweaks to wording matters a TON, especially detailing how strict it should be in how common something is or not
+
+
+
+
+
+- Model Accuracy (D):
+
+~100% accuracy for Addendum only: Version 1
+99.32, 100, 99.32, 100
+99.32, 100, 99.32, 100
+99.32, 100, 99.32, 100
+99.32, 100, 99.32, 100
+
+# No notes with a Yes answer in Ground Truth
+
+
+
+
+
+- Model Accuracy (R):
+
+~94% accuracy for A only: Version 1
+92.18, 93.13, 92.18, 93.13
+93.54, 94.50, 93.54, 94.50
+92.86, 93.81, 92.86, 93.81
+93.20, 94.16, 93.20, 94.16
+
+# 281/294 notes with a No answer in Ground Truth
+
+~xx.xx% accuracy for A&P + A: Version 2
+# Use info from both to create a response, 50% for both (maybe not needed for this one? very low priority)
+
+
+
+
+Parameters:
+
+temperature - Controls randomness of output
+Range: 0.0 to 2.0 (Recommended to stay between 0 and 1)
+Lower values (closer to 0.0) means more focused, deterministic, less variety
+Higher values (closer to 0.7, 1.0) means more diverse, creative, more variation in responses
+
+top_p - Controls the probability mass GPT samples from
+Instead of sampling from all possible outputs, it only chooses from top X% most likely outputs that sum to top_p
+Range: 0.0 to 1.0
+top_p = 1.0 = consider all options
+top_p = 0.9 = consider only the top 90% of likely responses
+
+temperature = 0.0 and top_p = 1.0 means the model responds as deterministically as possible with no creativity
+Explanations maybe use temperature around 0.2/0.3
+Keep top_p at 0.95 to ensure that the most confident reponses are chosen from but give it a little variability
+Change temperature around from 0.0 to 1.0 to see which works best
+
+Base parameters ran for all of Size are temperature = 0.7 and top_p = 0.95
