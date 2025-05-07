@@ -1,0 +1,191 @@
+Exact column strings (Nicky): "Recurrent Tumor (R)"                                "Location - Nose, Eyelid, Nail, Lip, Genitalia, or Acral (L)"
+                              "Aggressive Tumor Pathology Type (AT)"               "DFSP (D)"
+                              A&P 50%/A 50% (R)    PE 100%/A&P 100%/A 100% (L)    A 100% (AT)    A 100% (D)
+                              
+Exact column strings (Thomas): "Coordinated repair with ENT/oculoplastics (C)"          "Additional C&F"
+                               "Additional Excision"                                    "Multiple Sites"
+                               A&P 60%/A 60% (C)    A 100% (C&F)    A 100% (AE)    PE 100%/A 100% (MS)
+
+
+
+- Code TODO:
+Fix the singular regex case to wrap up tumor size, create tests and accuracy checks for all other questions
+
+
+- Presentation TODO:
+Not yet lol
+
+
+
+- Model Accuracy:
+2nd number is the best to look at, it removes notes that have issues like blank and incorrect Greatest Dimensions
+
+~70% accuracy for only PE notes: Version 1
+52, 69.5, 73.5, 77.2
+51.3, 68.6, 72.9, 77
+51.3, 68.6, 72.9, 76.6
+
+~60% accuracy for all 3 note columns (split at > 10,000 chars): Version 2
+44.5, 59.5, 50.7, 60
+43.1, 57.7, 48.8, 58.2
+44, 59, 51
+46, 62, 54
+
+~75% accuracy for all 3 note columns (split every time): Version 3
+55.78, 74.55, 62.60, 74.89
+55.44, 74.09, 61.28, 74.43
+
+~92% accuracy for V3 + removing bad notes: Version 4
+68.71%  91.82%  73.19%  91.82% -> Accuracy when removing notes without Ground Truth or numbers in PE or mismatching Ground Truth
+69.05%  92.27%  72.50%  92.27%
+69.05%  92.27%  73.55%  92.27%
+69.05%  92.27%  73.29%  92.27%
+
+~95% accuracy for V4 + fixed reg ex (cm vs mm issue): Version 5
+71.43%  95.45%  76.36%  95.45%  (accidentally left in 2 bad notes here)
+71.77%  95.91%  75.90%  95.91%
+(Not done yet, fix regex more and run about 5 times total)
+
+
+Base accuracy (far left, nothing removed) has gone way up from the very first test, so it is definitely improving
+Unsuprisingly smaller GPT calls are more accurate
+
+
+
+
+
+
+
+
+
+
+- Indexes of Notes with Multi-valued Entries in Greatest Dimension Column:
+# 17,20,22,25,31,32,38,52,55,62,73,75,100,103,105,115,126,131,148,153,157,169,183,187
+# 189,194,197,199,207,228,234,239,241,243,253,254,263,272,276,279,284,290,292,293
+
+Greatest Dimension gives all tumors' greatest dimension (can fix with reg ex during comparison):
+# 17,20,25,31,32,75,100,103,105,115,148,153,169,189,194,199,241,253,254,263,272,276,284,288,290
+
+Greatest Dimension gives 1+ correct size, 1+ unknown dimension also given:
+# 22,55
+
+Greatest Dimension gives multiple sizes, no sizes found in PE:
+# 38,52,62,131,234
+
+Greatest Dimension is missing greatest size found in PE:
+# 73,157,187,228,279,292,293
+
+Greatest Dimension gives only some tumors' greatest dimension, largest is given (can fix with reg ex during comparison):
+# 126,183,197,207,239,243
+
+
+
+
+
+- Indexes of Notes with Single-valued Entries in Greatest Dimension Column (Remove these indexes, can't fix without editing Excel sheet):
+Greatest Dimension and largest size from PE notes don't match up at all, no reason:
+# 7, 101 (no PE notes), 110
+
+Greatest Dimension given but no sizes given in PE notes:
+# 11, 33, 34, 39, 45, 66, 80, 88, 102, 107, 123, 132, 135, 136, 137, 200, 210, 227
+Below have matching Greatest Dimension found in A&P or A:
+# 11, 33, 45, 66, 132
+
+Greatest Dimension is the largest size of first tumor listed in PE notes:
+# 8, 32, 50, 89, 121, 133, 184, 193, 214, 252, 261, 265, 287
+
+Greatest Dimension is the largest size of a tumor but not the first tumor:
+# 23, 49, 140, 150, 155, 164, 170, 206, 229
+
+Correct but flagged because of reg ex:
+# 27, 53, 179, 215, 235, 240, 268
+
+
+
+
+
+Can Fix with reg ex:
+# 17,20,25,31,32,75,100,103,105,115,148,153,169,189,194,199,241,253,254,263,272,276,284,288,290
+# 126,183,197,207,239,243
+
+Can't fix, remove these:
+# 22,55,38,52,62,131,234,73,157,187,228,279,292,293
+# 7,101,110,34,39,80,88,102,107,123,135,136,137,200,210,227,8,50,89,121,133,184,214,252,261,265,23,49,140,150,155,164,170,206,229
+
+[7,8,22,23,32,34,38,39,49,50,52,55,62,66,73,80,88,89,101,102,107,110,121,123,131,133,135,136,137,140,150,155,157,164,170,184,187,200,206,210,214,227,228,229,234,252,261,265,279,292,293]
+
+
+
+# Incorrect Predictions:
+# 51 (cm vs mm issue), 92, 114, 115, 125, 158, 183, 207, 237, 251, 254, 274 (???), 278 (6x4mm -> 6.4), 290
+# Only issue is how mm vs cm is handled, need to fix the reg ex for that
+
+
+
+
+
+
+Old Regex:
+
+'''
+# Unit Filter: Checks for 'mm' and 'millimeters' and sets a flag to divide numbers by 10 later to convert from mm to cm
+mmArr = [0 for i in range(len(output))]
+
+for i in range(0, min(sampleSize, len(Cat))):
+    # If skip_patients is True and current index is in skip_patients_array, move to next index
+    if skip_patients and i in skip_patients_array:
+        continue
+            
+    #sizes_check = output[i-1].split()
+    sizes = output[i]
+    #print(output[i])
+    sizesReal = str(trueResults[i])
+    
+    # Reg ex to determine if units are mm or cm
+    check_units = re.split(r'\s+|-', output[i])
+    check_units = [re.sub(r'[^\d.]+', '', size) for size in check_units]
+    check_units = [size for size in check_units if size and size != '.']
+    
+    # If unit is in mm then mark it to convert to cm later
+    # This can be improved to handle cm and mm mixing, currently the input [0.7cm, 5mm] would not mark the array to divide since not all are >= 1
+    # This would cause the largest size to be 5 instead of 0.7, making it incorrect
+    if('mm' in str(output[i]) or 'millimeters' in str(sizes)):
+        if(all(float(num) >= 1 for num in check_units)):
+            mmArr[i] = 1
+        
+    sizes = re.split(r'\s+|-', output[i])
+    
+    if len(sizesReal) >= 1:
+        sizesReal = re.split(r'[;/]', sizesReal)
+        for j in range(len(sizesReal)):
+            if(re.search(r'NA', sizesReal[j])):
+                sizesReal[j] = -1
+            elif(re.match(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}', sizesReal[j])):
+                sizesReal[j] = -1
+                
+        sizesReal = str(max(float(val) for val in sizesReal))
+
+    # numeric_sizes are sizes from ChatGPT, numeric_sizes_real are sizes from Greatest Dimension column
+    numeric_sizes = [float(re.sub(r'[^\d.]+', '', size)) for size in sizes if re.sub(r'[^\d.]+', '', size).replace('.', '', 1).isdigit()] # Convert to float
+    numeric_sizes_real = [(re.sub(r'[^\d.]+', '', size)) for size in sizesReal if re.sub(r'[^\d.]+', '', size).replace('.', '', 1).isdigit()] # Convert to float
+    
+    if len(numeric_sizes) == 0:
+        largest_size = -2 # GPT gave an answer with no tumor size
+    else:
+        if mmArr[i] == 1:
+            largest_size = max(numeric_sizes) / 10 # Convert mm to cm
+            largest_size = round(largest_size, 2) # Round to 2 decimal places to avoid floating point precision error
+            #print("Dividing")
+        else:
+             largest_size = max(numeric_sizes) # Already in cm
+    
+    if len(numeric_sizes_real) == 0 or any(j in ["nan", "NA"] for j in sizesReal.split()):
+        largest_size_real = -1 # Tumor size not provided in Greatest Dimension column
+    else:
+        largest_size_real = sizesReal
+    
+    output_final[i] = largest_size
+    trueResults_final[i] = largest_size_real
+    #print(f"Result[{i}]: ChatGPT Prediction = {output[i]} Greatest Dimension Given = {trueResults[i]}")
+    print(f"Result[{i}]: ChatGPT Prediction = {output_final[i]} Greatest Dimension Given = {trueResults_final[i]}")
+'''
