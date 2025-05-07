@@ -1,0 +1,882 @@
+Index: 0
+A Unfiltered: No
+A Filtered: ['no']
+Index: 1
+A Unfiltered: No
+A Filtered: ['no']
+Index: 2
+A Unfiltered: No
+A Filtered: ['no']
+Index: 3
+A Unfiltered: No
+A Filtered: ['no']
+Index: 4
+A Unfiltered: No
+A Filtered: ['no']
+Index: 5
+A Unfiltered: No
+A Filtered: ['no']
+Index: 6
+A Unfiltered: No
+A Filtered: ['no']
+Index: 7
+A Unfiltered: No
+A Filtered: ['no']
+Index: 8
+A Unfiltered: No
+A Filtered: ['no']
+Index: 9
+A Unfiltered: No
+A Filtered: ['no']
+Index: 10
+A Unfiltered: No
+A Filtered: ['no']
+Index: 11
+A Unfiltered: No
+A Filtered: ['no']
+Index: 12
+A Unfiltered: No
+A Filtered: ['no']
+Index: 13
+A Unfiltered: No
+A Filtered: ['no']
+Index: 14
+A Unfiltered: No
+A Filtered: ['no']
+Index: 15
+A Unfiltered: No
+A Filtered: ['no']
+Index: 16
+A Unfiltered: No
+A Filtered: ['no']
+Index: 17
+A Unfiltered: No
+A Filtered: ['no']
+Index: 18
+A Unfiltered: No
+A Filtered: ['no']
+Index: 19
+A Unfiltered: No
+A Filtered: ['no']
+Index: 20
+A Unfiltered: No
+A Filtered: ['no']
+Index: 21
+A Unfiltered: No
+A Filtered: ['no']
+Index: 22
+A Unfiltered: No
+A Filtered: ['no']
+Index: 23
+A Unfiltered: No
+A Filtered: ['no']
+Index: 24
+A Unfiltered: No
+A Filtered: ['no']
+Index: 25
+A Unfiltered: No
+A Filtered: ['no']
+Index: 26
+A Unfiltered: No
+A Filtered: ['no']
+Index: 27
+A Unfiltered: No
+A Filtered: ['no']
+Index: 28
+A Unfiltered: No
+A Filtered: ['no']
+Index: 29
+A Unfiltered: No
+A Filtered: ['no']
+Index: 30
+A Unfiltered: No
+A Filtered: ['no']
+Index: 31
+A Unfiltered: No
+A Filtered: ['no']
+Index: 32
+A Unfiltered: No
+A Filtered: ['no']
+Index: 33
+A Unfiltered: No
+A Filtered: ['no']
+Index: 34
+A Unfiltered: No
+A Filtered: ['no']
+Index: 35
+A Unfiltered: No
+A Filtered: ['no']
+Index: 36
+A Unfiltered: No
+A Filtered: ['no']
+Index: 37
+A Unfiltered: No
+A Filtered: ['no']
+Index: 38
+A Unfiltered: No
+A Filtered: ['no']
+Index: 39
+A Unfiltered: No
+A Filtered: ['no']
+Index: 40
+A Unfiltered: No
+A Filtered: ['no']
+Index: 41
+A Unfiltered: No
+A Filtered: ['no']
+Index: 42
+A Unfiltered: No
+A Filtered: ['no']
+Index: 43
+A Unfiltered: No
+A Filtered: ['no']
+Index: 44
+A Unfiltered: No
+A Filtered: ['no']
+Index: 45
+A Unfiltered: No
+A Filtered: ['no']
+Index: 46
+A Unfiltered: No
+A Filtered: ['no']
+Index: 47
+A Unfiltered: No
+A Filtered: ['no']
+Index: 48
+A Unfiltered: No
+A Filtered: ['no']
+Index: 49
+A Unfiltered: No
+A Filtered: ['no']
+Index: 50
+A Unfiltered: No
+A Filtered: ['no']
+Index: 51
+A Unfiltered: No
+A Filtered: ['no']
+Index: 52
+A Unfiltered: No
+A Filtered: ['no']
+Index: 53
+A Unfiltered: No
+A Filtered: ['no']
+Index: 54
+A Unfiltered: No
+A Filtered: ['no']
+Index: 55
+A Unfiltered: No
+A Filtered: ['no']
+Index: 56
+A Unfiltered: No
+A Filtered: ['no']
+Index: 57
+A Unfiltered: No
+A Filtered: ['no']
+Index: 58
+A Unfiltered: No
+A Filtered: ['no']
+Index: 59
+A Unfiltered: No
+A Filtered: ['no']
+Index: 60
+A Unfiltered: No
+A Filtered: ['no']
+Index: 61
+A Unfiltered: No
+A Filtered: ['no']
+Index: 62
+A Unfiltered: No
+A Filtered: ['no']
+Index: 63
+A Unfiltered: No
+A Filtered: ['no']
+Index: 64
+A Unfiltered: No
+A Filtered: ['no']
+Index: 65
+A Unfiltered: No
+A Filtered: ['no']
+Index: 66
+A Unfiltered: No
+A Filtered: ['no']
+Index: 67
+A Unfiltered: No
+A Filtered: ['no']
+Index: 68
+A Unfiltered: No
+A Filtered: ['no']
+Index: 69
+A Unfiltered: No
+A Filtered: ['no']
+Index: 70
+A Unfiltered: No
+A Filtered: ['no']
+Index: 71
+A Unfiltered: No
+A Filtered: ['no']
+Index: 72
+A Unfiltered: No
+A Filtered: ['no']
+Index: 73
+A Unfiltered: No
+A Filtered: ['no']
+Index: 74
+A Unfiltered: No
+A Filtered: ['no']
+Index: 75
+A Unfiltered: No
+A Filtered: ['no']
+Index: 76
+A Unfiltered: No
+A Filtered: ['no']
+Index: 77
+A Unfiltered: No
+A Filtered: ['no']
+Index: 78
+A Unfiltered: No
+A Filtered: ['no']
+Index: 79
+A Unfiltered: No
+A Filtered: ['no']
+Index: 80
+A Unfiltered: No
+A Filtered: ['no']
+Index: 81
+A Unfiltered: No
+A Filtered: ['no']
+Index: 82
+A Unfiltered: No
+A Filtered: ['no']
+Index: 83
+A Unfiltered: No
+A Filtered: ['no']
+Index: 84
+A Unfiltered: No
+A Filtered: ['no']
+Index: 85
+A Unfiltered: No
+A Filtered: ['no']
+Index: 86
+A Unfiltered: No
+A Filtered: ['no']
+Index: 87
+A Unfiltered: No
+A Filtered: ['no']
+Index: 88
+A Unfiltered: No
+A Filtered: ['no']
+Index: 89
+A Unfiltered: No
+A Filtered: ['no']
+Index: 90
+A Unfiltered: No
+A Filtered: ['no']
+Index: 91
+A Unfiltered: No
+A Filtered: ['no']
+Index: 92
+A Unfiltered: No
+A Filtered: ['no']
+Index: 93
+A Unfiltered: No
+A Filtered: ['no']
+Index: 94
+A Unfiltered: No
+A Filtered: ['no']
+Index: 95
+A Unfiltered: No
+A Filtered: ['no']
+Index: 96
+A Unfiltered: No
+A Filtered: ['no']
+Index: 97
+A Unfiltered: No
+A Filtered: ['no']
+Index: 98
+A Unfiltered: No
+A Filtered: ['no']
+Index: 99
+A Unfiltered: No
+A Filtered: ['no']
+Index: 100
+A Unfiltered: No
+A Filtered: ['no']
+Index: 101
+A Unfiltered: No
+A Filtered: ['no']
+Index: 102
+A Unfiltered: No
+A Filtered: ['no']
+Index: 103
+A Unfiltered: No
+A Filtered: ['no']
+Index: 104
+A Unfiltered: No
+A Filtered: ['no']
+Index: 105
+A Unfiltered: No
+A Filtered: ['no']
+Index: 106
+A Unfiltered: No
+A Filtered: ['no']
+Index: 107
+A Unfiltered: No
+A Filtered: ['no']
+Index: 108
+A Unfiltered: No
+A Filtered: ['no']
+Index: 109
+A Unfiltered: No
+A Filtered: ['no']
+Index: 110
+A Unfiltered: No
+A Filtered: ['no']
+Index: 111
+A Unfiltered: No
+A Filtered: ['no']
+Index: 112
+A Unfiltered: No
+A Filtered: ['no']
+Index: 113
+A Unfiltered: No
+A Filtered: ['no']
+Index: 114
+A Unfiltered: No
+A Filtered: ['no']
+Index: 115
+A Unfiltered: No
+A Filtered: ['no']
+Index: 116
+A Unfiltered: No
+A Filtered: ['no']
+Index: 117
+A Unfiltered: No
+A Filtered: ['no']
+Index: 118
+A Unfiltered: No
+A Filtered: ['no']
+Index: 119
+A Unfiltered: No
+A Filtered: ['no']
+Index: 120
+A Unfiltered: No
+A Filtered: ['no']
+Index: 121
+A Unfiltered: No
+A Filtered: ['no']
+Index: 122
+A Unfiltered: No
+A Filtered: ['no']
+Index: 123
+A Unfiltered: No
+A Filtered: ['no']
+Index: 124
+A Unfiltered: No
+A Filtered: ['no']
+Index: 125
+A Unfiltered: No
+A Filtered: ['no']
+Index: 126
+A Unfiltered: No
+A Filtered: ['no']
+Index: 127
+A Unfiltered: No
+A Filtered: ['no']
+Index: 128
+A Unfiltered: No
+A Filtered: ['no']
+Index: 129
+A Unfiltered: No
+A Filtered: ['no']
+Index: 130
+A Unfiltered: No
+A Filtered: ['no']
+Index: 131
+A Unfiltered: No
+A Filtered: ['no']
+Index: 132
+A Unfiltered: No
+A Filtered: ['no']
+Index: 133
+A Unfiltered: No
+A Filtered: ['no']
+Index: 134
+A Unfiltered: No
+A Filtered: ['no']
+Index: 135
+A Unfiltered: No
+A Filtered: ['no']
+Index: 136
+A Unfiltered: No
+A Filtered: ['no']
+Index: 137
+A Unfiltered: No
+A Filtered: ['no']
+Index: 138
+A Unfiltered: No
+A Filtered: ['no']
+Index: 139
+A Unfiltered: No
+A Filtered: ['no']
+Index: 140
+A Unfiltered: No
+A Filtered: ['no']
+Index: 141
+A Unfiltered: No
+A Filtered: ['no']
+Index: 142
+A Unfiltered: No
+A Filtered: ['no']
+Index: 143
+A Unfiltered: No
+A Filtered: ['no']
+Index: 144
+A Unfiltered: No
+A Filtered: ['no']
+Index: 145
+A Unfiltered: No
+A Filtered: ['no']
+Index: 146
+A Unfiltered: No
+A Filtered: ['no']
+Index: 147
+A Unfiltered: No
+A Filtered: ['no']
+Index: 148
+A Unfiltered: No
+A Filtered: ['no']
+Index: 149
+A Unfiltered: No
+A Filtered: ['no']
+Index: 150
+A Unfiltered: No
+A Filtered: ['no']
+Index: 151
+A Unfiltered: No
+A Filtered: ['no']
+Index: 152
+A Unfiltered: No
+A Filtered: ['no']
+Index: 153
+A Unfiltered: No
+A Filtered: ['no']
+Index: 154
+A Unfiltered: No
+A Filtered: ['no']
+Index: 155
+A Unfiltered: No
+A Filtered: ['no']
+Index: 156
+A Unfiltered: No
+A Filtered: ['no']
+Index: 157
+A Unfiltered: No
+A Filtered: ['no']
+Index: 158
+A Unfiltered: No
+A Filtered: ['no']
+Index: 159
+A Unfiltered: No
+A Filtered: ['no']
+Index: 160
+A Unfiltered: No
+A Filtered: ['no']
+Index: 161
+A Unfiltered: No
+A Filtered: ['no']
+Index: 162
+A Unfiltered: No
+A Filtered: ['no']
+Index: 163
+A Unfiltered: No
+A Filtered: ['no']
+Index: 164
+A Unfiltered: No
+A Filtered: ['no']
+Index: 165
+A Unfiltered: No
+A Filtered: ['no']
+Index: 166
+A Unfiltered: No
+A Filtered: ['no']
+Index: 167
+A Unfiltered: No
+A Filtered: ['no']
+Index: 168
+A Unfiltered: No
+A Filtered: ['no']
+Index: 169
+A Unfiltered: No
+A Filtered: ['no']
+Index: 170
+A Unfiltered: No
+A Filtered: ['no']
+Index: 171
+A Unfiltered: No
+A Filtered: ['no']
+Index: 172
+A Unfiltered: No
+A Filtered: ['no']
+Index: 173
+A Unfiltered: No
+A Filtered: ['no']
+Index: 174
+A Unfiltered: No
+A Filtered: ['no']
+Index: 175
+A Unfiltered: No
+A Filtered: ['no']
+Index: 176
+A Unfiltered: No
+A Filtered: ['no']
+Index: 177
+A Unfiltered: No
+A Filtered: ['no']
+Index: 178
+A Unfiltered: No
+A Filtered: ['no']
+Index: 179
+A Unfiltered: No
+A Filtered: ['no']
+Index: 180
+A Unfiltered: No
+A Filtered: ['no']
+Index: 181
+A Unfiltered: No
+A Filtered: ['no']
+Index: 182
+A Unfiltered: No
+A Filtered: ['no']
+Index: 183
+A Unfiltered: No
+A Filtered: ['no']
+Index: 184
+A Unfiltered: No
+A Filtered: ['no']
+Index: 185
+A Unfiltered: No
+A Filtered: ['no']
+Index: 186
+A Unfiltered: No
+A Filtered: ['no']
+Index: 187
+A Unfiltered: No
+A Filtered: ['no']
+Index: 188
+A Unfiltered: No
+A Filtered: ['no']
+Index: 189
+A Unfiltered: No
+A Filtered: ['no']
+Index: 190
+A Unfiltered: No
+A Filtered: ['no']
+Index: 191
+A Unfiltered: No
+A Filtered: ['no']
+Index: 192
+A Unfiltered: No
+A Filtered: ['no']
+Index: 193
+A Unfiltered: No
+A Filtered: ['no']
+Index: 194
+A Unfiltered: No
+A Filtered: ['no']
+Index: 195
+A Unfiltered: No
+A Filtered: ['no']
+Index: 196
+A Unfiltered: No
+A Filtered: ['no']
+Index: 197
+A Unfiltered: No
+A Filtered: ['no']
+Index: 198
+A Unfiltered: No
+A Filtered: ['no']
+Index: 199
+A Unfiltered: No
+A Filtered: ['no']
+Index: 200
+A Unfiltered: No
+A Filtered: ['no']
+Index: 201
+A Unfiltered: No
+A Filtered: ['no']
+Index: 202
+A Unfiltered: No
+A Filtered: ['no']
+Index: 203
+A Unfiltered: No
+A Filtered: ['no']
+Index: 204
+A Unfiltered: No
+A Filtered: ['no']
+Index: 205
+A Unfiltered: No
+A Filtered: ['no']
+Index: 206
+A Unfiltered: No
+A Filtered: ['no']
+Index: 207
+A Unfiltered: No
+A Filtered: ['no']
+Index: 208
+A Unfiltered: No
+A Filtered: ['no']
+Index: 209
+A Unfiltered: No
+A Filtered: ['no']
+Index: 210
+A Unfiltered: No
+A Filtered: ['no']
+Index: 211
+A Unfiltered: No
+A Filtered: ['no']
+Index: 212
+A Unfiltered: No
+A Filtered: ['no']
+Index: 213
+A Unfiltered: No
+A Filtered: ['no']
+Index: 214
+A Unfiltered: No
+A Filtered: ['no']
+Index: 215
+A Unfiltered: No
+A Filtered: ['no']
+Index: 216
+A Unfiltered: No
+A Filtered: ['no']
+Index: 217
+A Unfiltered: No
+A Filtered: ['no']
+Index: 218
+A Unfiltered: No
+A Filtered: ['no']
+Index: 219
+A Unfiltered: No
+A Filtered: ['no']
+Index: 220
+A Unfiltered: No
+A Filtered: ['no']
+Index: 221
+A Unfiltered: No
+A Filtered: ['no']
+Index: 222
+A Unfiltered: No
+A Filtered: ['no']
+Index: 223
+A Unfiltered: No
+A Filtered: ['no']
+Index: 224
+A Unfiltered: No
+A Filtered: ['no']
+Index: 225
+A Unfiltered: No
+A Filtered: ['no']
+Index: 226
+A Unfiltered: No
+A Filtered: ['no']
+Index: 227
+A Unfiltered: No
+A Filtered: ['no']
+Index: 228
+A Unfiltered: No
+A Filtered: ['no']
+Index: 229
+A Unfiltered: No
+A Filtered: ['no']
+Index: 230
+A Unfiltered: No
+A Filtered: ['no']
+Index: 231
+A Unfiltered: No
+A Filtered: ['no']
+Index: 232
+A Unfiltered: No
+A Filtered: ['no']
+Index: 233
+A Unfiltered: No
+A Filtered: ['no']
+Index: 234
+A Unfiltered: No
+A Filtered: ['no']
+Index: 235
+A Unfiltered: No
+A Filtered: ['no']
+Index: 236
+A Unfiltered: No
+A Filtered: ['no']
+Index: 237
+A Unfiltered: No
+A Filtered: ['no']
+Index: 238
+A Unfiltered: No
+A Filtered: ['no']
+Index: 239
+A Unfiltered: No
+A Filtered: ['no']
+Index: 240
+A Unfiltered: No
+A Filtered: ['no']
+Index: 241
+A Unfiltered: No
+A Filtered: ['no']
+Index: 242
+A Unfiltered: No
+A Filtered: ['no']
+Index: 243
+A Unfiltered: No
+A Filtered: ['no']
+Index: 244
+A Unfiltered: No
+A Filtered: ['no']
+Index: 245
+A Unfiltered: No
+A Filtered: ['no']
+Index: 246
+A Unfiltered: No
+A Filtered: ['no']
+Index: 247
+A Unfiltered: No
+A Filtered: ['no']
+Index: 248
+A Unfiltered: No
+A Filtered: ['no']
+Index: 249
+A Unfiltered: No
+A Filtered: ['no']
+Index: 250
+A Unfiltered: No
+A Filtered: ['no']
+Index: 251
+A Unfiltered: No
+A Filtered: ['no']
+Index: 252
+A Unfiltered: No
+A Filtered: ['no']
+Index: 253
+A Unfiltered: No
+A Filtered: ['no']
+Index: 254
+A Unfiltered: No
+A Filtered: ['no']
+Index: 255
+A Unfiltered: No
+A Filtered: ['no']
+Index: 256
+A Unfiltered: No
+A Filtered: ['no']
+Index: 257
+A Unfiltered: No
+A Filtered: ['no']
+Index: 258
+A Unfiltered: No
+A Filtered: ['no']
+Index: 259
+A Unfiltered: No
+A Filtered: ['no']
+Index: 260
+A Unfiltered: No
+A Filtered: ['no']
+Index: 261
+A Unfiltered: No
+A Filtered: ['no']
+Index: 262
+A Unfiltered: No
+A Filtered: ['no']
+Index: 263
+A Unfiltered: No
+A Filtered: ['no']
+Index: 264
+A Unfiltered: No
+A Filtered: ['no']
+Index: 265
+A Unfiltered: No
+A Filtered: ['no']
+Index: 266
+A Unfiltered: No
+A Filtered: ['no']
+Index: 267
+A Unfiltered: No
+A Filtered: ['no']
+Index: 268
+A Unfiltered: No
+A Filtered: ['no']
+Index: 269
+A Unfiltered: No
+A Filtered: ['no']
+Index: 270
+A Unfiltered: No
+A Filtered: ['no']
+Index: 271
+A Unfiltered: No
+A Filtered: ['no']
+Index: 272
+A Unfiltered: No
+A Filtered: ['no']
+Index: 273
+A Unfiltered: No
+A Filtered: ['no']
+Index: 274
+A Unfiltered: No
+A Filtered: ['no']
+Index: 275
+A Unfiltered: No
+A Filtered: ['no']
+Index: 276
+A Unfiltered: No
+A Filtered: ['no']
+Index: 277
+A Unfiltered: No
+A Filtered: ['no']
+Index: 278
+A Unfiltered: No
+A Filtered: ['no']
+Index: 279
+A Unfiltered: No
+A Filtered: ['no']
+Index: 280
+A Unfiltered: No
+A Filtered: ['no']
+Index: 281
+A Unfiltered: No
+A Filtered: ['no']
+Index: 282
+A Unfiltered: No
+A Filtered: ['no']
+Index: 283
+A Unfiltered: No
+A Filtered: ['no']
+Index: 284
+A Unfiltered: No
+A Filtered: ['no']
+Index: 285
+A Unfiltered: No
+A Filtered: ['no']
+Index: 286
+A Unfiltered: No
+A Filtered: ['no']
+Index: 287
+A Unfiltered: No
+A Filtered: ['no']
+Index: 288
+A Unfiltered: No
+A Filtered: ['no']
+Index: 289
+A Unfiltered: No
+A Filtered: ['no']
+Index: 290
+A Unfiltered: No
+A Filtered: ['no']
+Index: 291
+A Unfiltered: No
+A Filtered: ['no']
+Index: 292
+A Unfiltered: No
+A Filtered: ['no']
+Index: 293
+A Unfiltered: No
+A Filtered: ['no']
