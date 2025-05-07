@@ -1,0 +1,2058 @@
+Index: 0
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 1
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 2
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 3
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: Yes
+A&P Filtered: ['yes']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 4
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 5
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 6
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 7
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 8
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 9
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 10
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 11
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 12
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 13
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 14
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 15
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 16
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 17
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: Yes
+A&P Filtered: ['yes']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 18
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 19
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 20
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 21
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 22
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 23
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 24
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 25
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 26
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 27
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 28
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 29
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 30
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 31
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 32
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: Yes
+A&P Filtered: ['yes']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 33
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 34
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: Yes
+A&P Filtered: ['yes']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 35
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 36
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 37
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 38
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 39
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 40
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 41
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 42
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 43
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 44
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 45
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 46
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 47
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 48
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 49
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 50
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 51
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 52
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 53
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 54
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 55
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 56
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 57
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 58
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 59
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 60
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 61
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 62
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 63
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 64
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 65
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 66
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 67
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 68
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 69
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 70
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 71
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 72
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 73
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 74
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 75
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 76
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 77
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 78
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 79
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 80
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 81
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 82
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 83
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 84
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 85
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 86
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 87
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 88
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 89
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 90
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 91
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 92
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 93
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 94
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 95
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 96
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 97
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 98
+PE Unfiltered: NaN error
+PE Filtered: []
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 99
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 100
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 101
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 102
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 103
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 104
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 105
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 106
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 107
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 108
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 109
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 110
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 111
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 112
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 113
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 114
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 115
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 116
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 117
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 118
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 119
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 120
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 121
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 122
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 123
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 124
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 125
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 126
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 127
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 128
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 129
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 130
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 131
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 132
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 133
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 134
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 135
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 136
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 137
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 138
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 139
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 140
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 141
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 142
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 143
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 144
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 145
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 146
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 147
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 148
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 149
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 150
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 151
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 152
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 153
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 154
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 155
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 156
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 157
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 158
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 159
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 160
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 161
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 162
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 163
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 164
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 165
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 166
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 167
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 168
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 169
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 170
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 171
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 172
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 173
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 174
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 175
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 176
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 177
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 178
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 179
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 180
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 181
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 182
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 183
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: Yes
+A&P Filtered: ['yes']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 184
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 185
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 186
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 187
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 188
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 189
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 190
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 191
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 192
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 193
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 194
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 195
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 196
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 197
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 198
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 199
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 200
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 201
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 202
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 203
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 204
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 205
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 206
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 207
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 208
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 209
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 210
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 211
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 212
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 213
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 214
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 215
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 216
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 217
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 218
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 219
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 220
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 221
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 222
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 223
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 224
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 225
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 226
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 227
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 228
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 229
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 230
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 231
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 232
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 233
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 234
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 235
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 236
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 237
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 238
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 239
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 240
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 241
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 242
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 243
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 244
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 245
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 246
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 247
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 248
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 249
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 250
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 251
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 252
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 253
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 254
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 255
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 256
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 257
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 258
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 259
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 260
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 261
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 262
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 263
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 264
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 265
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 266
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 267
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 268
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: No
+A Filtered: ['no']
+Index: 269
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 270
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 271
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 272
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 273
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 274
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 275
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 276
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 277
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 278
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 279
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: Yes
+A&P Filtered: ['yes']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 280
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 281
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 282
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 283
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 284
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 285
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 286
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 287
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 288
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 289
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 290
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 291
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 292
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
+Index: 293
+PE Unfiltered: No
+PE Filtered: ['no']
+A&P Unfiltered: No
+A&P Filtered: ['no']
+A Unfiltered: Yes
+A Filtered: ['yes']
