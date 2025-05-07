@@ -1,0 +1,33 @@
+Order
+1. Additional Excision (AE)
+accuracy: 64.95
+precision: 9.18
+recall: 40.91
+F1: 15.00
+
+2. Additional  C & F (CF)
+accuracy: 97.94
+precision: 81.25
+recall: 81.25
+F1: 81.25
+
+3. Multiple Sites (MS)
+accuracy: 94.16
+precision: 90.91
+recall: 80.65
+F1: 85.47
+
+4. Coordinated Repair w/ ENT (E) 
+accuracy: 97.26
+precision: 71.43
+recall: 71.43
+F1: 71.43
+
+
+
+
+
+
+
+
+
